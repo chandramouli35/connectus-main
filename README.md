@@ -109,6 +109,7 @@ npm run dev
 ```
 
 ### Frontend Setup:
+
 Navigate to the frontend folder:
 
 ```bash
@@ -139,6 +140,7 @@ npm run dev
 You can check out the live version of the app here: [Live Demo](URL_OF_LIVE_DEMO) <!-- Add deployed url -->
 
 ## 🤝 Contributing
+
 #### Contributions are welcome! If you'd like to contribute to the project, follow these steps:
 
 - Fork the project.
@@ -147,16 +149,12 @@ You can check out the live version of the app here: [Live Demo](URL_OF_LIVE_DEMO
 - Push to the branch: git push origin feature/AmazingFeature.
 - Open a pull request.
 
-## 💬 Contact
-### For any questions, feel free to reach out at:
-
-- Email: [akshayanand9162@gmail.com](mailto:akshayanand9162@gmail.com)
-- GitHub: [akshay-9155](https://github.com/akshay-9155)
-
 ## 🙌 Acknowledgements
+
 ### Special thanks to all the contributors and open-source libraries that made this project possible.
 
 ## 📚 Project Structure
+
 ### Here’s a quick overview of the project structure:
 
 ```bash
@@ -181,8 +179,8 @@ socialMediaApp/
 │   │   ├── components/  # React components
 │   │   ├── redux/       # Redux slices, actions, reducers
 │   │   ├── hooks/       # custom hooks
-│   │   ├── App.js      
-│   │   ├── index.css    
+│   │   ├── App.js
+│   │   ├── index.css
 │   │   ├── main.js      # Root component
 │   │   └── index.html     # Entry point for the React app
 │   └── tailwind.config.js # Tailwind CSS configuration
@@ -193,23 +191,28 @@ socialMediaApp/
 ```
 
 ## ✨ Features Overview
+
 - **Authentication**
-    - JWT-based authentication to handle secure login and signup.
-    - Passwords are hashed using bcrypt for security.
+  - JWT-based authentication to handle secure login and signup.
+  - Passwords are hashed using bcrypt for security.
 - **Post Management**
-    - Users can create, edit, delete, and like posts.
-    - Posts can include text and images (uploaded to Cloudinary).
+  - Users can create, edit, delete, and like posts.
+  - Posts can include text and images (uploaded to Cloudinary).
 - **Commenting & Replies**
-    - Nested comment structure with users able to comment and reply to posts.
-    - Users can like and delete comments.
+  - Nested comment structure with users able to comment and reply to posts.
+  - Users can like and delete comments.
 - **Follow & Feed System**
-    - Follow system where users can follow/unfollow others.
-    - A personalized feed showing posts from followed users.
+  - Follow system where users can follow/unfollow others.
+  - A personalized feed showing posts from followed users.
+
 ## 📝 Todo
+
 - Add notifications for likes, comments, and follows.
 - Add search functionality.
 - Implement real-time chat.
+
 ## 🧑‍💻 Future Improvements
+
 - Real-time Features: Add WebSocket support for real-time notifications.
 - Story Feature: Allow users to post time-limited "stories."
 - PWA Support: Make the app installable as a Progressive Web App (PWA).
