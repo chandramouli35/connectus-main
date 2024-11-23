@@ -21,20 +21,21 @@
 //         console.log(`MongoDB connection error !!! ${error}`);
 //         throw error;
 //     })
-
 import dotenv from "dotenv";
-import { app } from "./app.js";
+import app from "./app.js"; // Use default import
 import databaseConnection from "./config/database.js";
 
+// Load environment variables
 dotenv.config({ path: "./.env" });
 
+// Connect to the database
 databaseConnection()
   .then(() => {
-    console.log(`Database connected successfully.`);
+    console.log("MongoDB connected successfully");
   })
   .catch((error) => {
-    console.error(`Database connection error: ${error}`);
+    console.error("MongoDB connection error:", error);
   });
 
-// Export the app for serverless function handling
+// Export the app for serverless functions
 export default app;

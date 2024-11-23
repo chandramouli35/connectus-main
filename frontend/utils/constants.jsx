@@ -4,8 +4,8 @@
 //   "https://connectus-eoiz.onrender.com/api/v1/user";
 // export const TWEET_API_ENDPOINT =
 //   "https://connectus-eoiz.onrender.com/api/v1/tweet";
-export const USER_API_ENDPOINT = "https://connectus-tau.vercel.app/api/v1/user";
-export const TWEET_API_ENDPOINT = "https://connectus-tau.vercel.app/api/v1/tweet";
+export const USER_API_ENDPOINT = "https://connect-theta-lake.vercel.app/api/v1/user";
+export const TWEET_API_ENDPOINT = "https://connect-theta-lake.vercel.app/v1/tweet";
 
 export const timeSince = (timestamp) => {
   let time = Date.parse(timestamp);
